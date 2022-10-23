@@ -3,10 +3,14 @@ import {
   ProductButtons,
   ProductImage,
   ProductTitle,
-} from "../components";
-import { products } from "../data/products";
+} from '../components';
+import { products } from '../data/products';
 
-const product = products[0];
+const product = {
+  id: '1',
+  title: 'Coffemug - Sin imagen',
+  //   img: './coffee-mug.png',
+};
 
 export const ShoppingPage = () => {
   return (
